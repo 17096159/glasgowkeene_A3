@@ -29,8 +29,6 @@ Glasgowkeene_a2AudioProcessorEditor::Glasgowkeene_a2AudioProcessorEditor (Glasgo
     mixSlider.setSliderStyle(Slider::SliderStyle::RotaryVerticalDrag);
     //0-100% range for wet/dry:
     mixSlider.setRange(0.0f, 1.0f);
-    //"%" sign for mix level label:
-    mixSlider.setTextValueSuffix(" % ");
     //label is below slider:
     mixSlider.setTextBoxStyle(Slider::TextEntryBoxPosition::TextBoxBelow, true, 50, 12);
     //label text:
